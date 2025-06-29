@@ -5,13 +5,13 @@ import { collection, doc, setDoc, getDoc } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD2i2yVE-pX74HYihUMHWZajEMmlKGPBDc",
-  authDomain: "cypherock-server.firebaseapp.com",
-  projectId: "cypherock-server",
-  storageBucket: "cypherock-server.firebasestorage.app",
-  messagingSenderId: "732921379415",
-  appId: "1:732921379415:web:035ac28931a43213f5c112",
-  measurementId: "G-4KNK9X7MDF"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 };
 
 // Initialize Firebase
