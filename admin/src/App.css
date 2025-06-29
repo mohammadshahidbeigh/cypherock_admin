@@ -1,0 +1,143 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.dashboard-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: #f4f8ff;
+  padding-top: 4rem;
+}
+
+.dashboard-content {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px rgba(0, 60, 255, 0.08);
+  padding: 2rem 2.5rem;
+  margin-top: 2rem;
+  min-width: 320px;
+  color: #003cff;
+  font-size: 1.1rem;
+}
+
+.logout-btn {
+  background: #003cff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  transition: background 0.2s;
+}
+
+.logout-btn:hover {
+  background: #0050ff;
+}
+
+.table-container {
+  margin-top: 1.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0, 60, 255, 0.08);
+  background: #eaf1ff;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #eaf1ff;
+  font-size: 1.08rem;
+}
+
+.table th, .table td {
+  padding: 0.85rem 1.2rem;
+  text-align: left;
+}
+
+.table th {
+  background: #c7dbff;
+  color: #003cff;
+  font-weight: bold;
+  font-size: 1.08rem;
+  border-bottom: 2px solid #b3c6ff;
+}
+
+.table tr {
+  transition: background 0.18s;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #f4f8ff;
+}
+
+.table tbody tr:nth-child(odd) {
+  background: #eaf1ff;
+}
+
+.table tbody tr:hover {
+  background: #d6e6ff;
+}
+
+.table td {
+  color: #222;
+}
+
+.status-card {
+  background: #eaf1ff;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(0, 60, 255, 0.08);
+  padding: 2rem 2.5rem;
+}
+
+.title {
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  font-weight: 700;
+  color: #003cff;
+  margin-bottom: 1rem;
+}
